@@ -53,7 +53,6 @@ contract LiquidityLauncher {
           //  TokenToLaunchInformation[tokenAddress].bnbStoredForThisAddress>=TokenToLaunchInformation[tokenAddress].bnbRequiredForLaunch &&
             //TokenToLaunchInformation[tokenAddress].bestBefore>= block.timestamp
         //){
-            //ganache-cli --deterministic --allowUnlimitedContractSize --fork https://mainnet.infura.io/v3/f6c763fa9d4638ad434ab29cb87c1b --unlock 0x1aD91ee08f21bE3dE0BA2ba6918E714dA6B45836
             IERC20 tokenContractA = IERC20(tokenAddressA);
             IERC20 tokenContractB = IERC20(tokenAddressB);
             address routerAddress = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
